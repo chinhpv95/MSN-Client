@@ -7,6 +7,12 @@
         </div>
         <div class="row fullHeight"
              ng-if="hasTimeseries()">
+             <div class="col-xs-10 col-sm-4 col-lg-3 fullHeight legend rightPanel" 
+                 ng-controller="SwcLegendButtonCtrl" 
+                 ng-class="{active:status.showLegend}">
+                <h3 class="header" translate="main.legend"></h3>
+                <swc-legend></swc-legend>
+            </div>
             <div class="col-xs-12 col-sm-8 col-lg-9 fullHeight">
                 <div class="visible-xs leftPanelButton" ng-controller="SwcLegendButtonCtrl">
                     <button type="button" class="btn btn-primary btn-xs" 
@@ -49,12 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-10 col-sm-4 col-lg-3 fullHeight legend rightPanel" 
-                 ng-controller="SwcLegendButtonCtrl" 
-                 ng-class="{active:status.showLegend}">
-                <h3 class="header" translate="main.legend"></h3>
-                <swc-legend></swc-legend>
-            </div>
+            
             <!--<swc-data-loading></swv-data-loading>-->
         </div>
     </div>

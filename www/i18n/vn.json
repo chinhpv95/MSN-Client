@@ -1,0 +1,282 @@
+{
+  "fullname": "Tiếng Việt",
+  "ok": "Xác nhận",
+  "main": {
+    "legend": "Chú thích",
+    "stationSelection": "Chọn một trạm",
+    "chartView": "Xem đồ thị",
+    "allPhenomena": "Tất cả hiện tượng",
+    "phenomenon": "Hiện tượng",
+    "favoritesList": "Yêu thích",
+    "importFavorites": "Nhập",
+    "exportFavorites": "Xuất",
+    "importExportHelp": "Để nhập file, vui lòng chọn một file đã xuất trước đó",
+    "noFileSelected": "Chưa chọn file"
+  },
+  "navigation": {
+    "diagram": "Biểu đồ",
+    "map": "Bản đồ",
+    "favorite": "Yêu thích",
+    "provider": "Nguồn",
+    "listSelection": "Lựa chọn",
+    "settings": "Cài đặt"
+  },
+  "chart": {
+    "noTimeseriesSelected": "Bạn chưa chọn chuỗi thời gian, Chuỗi thời gian được chọn không có giá trị trong phạm vi thời gian đưa ra hoặc chuỗi thời gian bị ẩn.",
+    "outsideOfDataRange": "Ngoài phạm vi dữ liệu!",
+    "annotation": "Dữ liệu chưa được xác thực!",
+    "monthNames": {
+      "jan": "Tháng một",
+      "feb": "Tháng hai",
+      "mar": "Tháng ba",
+      "apr": "Tháng bốn",
+      "may": "Tháng năm",
+      "jun": "Tháng sáu",
+      "jul": "Tháng bảy",
+      "aug": "Tháng tám",
+      "sep": "Tháng chín",
+      "oct": "Tháng mười",
+      "nov": "Tháng mười một",
+      "dec": "Tháng mười hai"
+    }
+  },
+  "table": {
+    "time": "Thời gian"
+  },
+  "providerList": {
+    "provider": "Nguồn cung cấp",
+    "serviceUrl": "Service-URL",
+    "stations": "Trạm",
+    "timeseries": "Chuỗi thời gian",
+    "phenomena": "Hiện tượng",
+    "selectAll": "Chọn tất cả "
+  },
+  "map": {
+    "userLocation": "Vị trí hiện tại của bạn",
+    "loading": "Đang tải dữ liệu",
+    "stationSelection": {
+      "station": "Trạm",
+      "selectAllTimeseries": "Chọn tất cả"
+    },
+    "platformSelection": {
+      "platform": "nền tảng",
+      "datasetType": "Kiểu dữ liệu"
+    },
+    "stationLocation": {
+      "station": "Trạm",
+      "timeseries": "Chuỗi thời gian",
+      "provider": "Nguồn cung cấp",
+      "jumpBackToChart": "Trở lại biểu đồ"
+    },
+    "search": {
+      "label": "Tìm kiếm địa chỉ",
+      "noResult": "Xin lỗi, không thể tìm thấy địa chỉ."
+    }
+  },
+  "listSelection": {
+    "header": "Chọn chuỗi thời gian theo danh sách",
+    "loading": "Tải dữ liệu từ {{countProvider}} các nguồn cung cấp...",
+    "headers": {
+      "category": "Thể loại",
+      "station": "Trạm",
+      "phenomenon": "Nguồn cung cấp",
+      "procedure": "Cảm biến"
+    },
+    "warning": {
+      "moreThanOneTimeseries": "Tìm thấy nhiều hơn một chuỗi thời gian"
+    }
+  },
+  "legend": {
+    "entry": {
+      "noData": "Không có dữ liệu",
+      "jumpToLastValue": "Đến giá trị cuối cùng",
+      "firstValueAt": "Giá trị đầu tiên tại",
+      "lastValueAt": "Giá trị cuối cùng tại"
+    }
+  },
+  "metadata": {
+    "procedure": {
+      "button": "Hiển thị siêu dữ liệu cảm biến",
+      "header": "Siêu dữ liệu cảm biến"
+    }
+  },
+  "export": {
+    "label": "Tải dữ liệu (.csv)"
+  },
+  "timeSelection": {
+    "header": "Phạm vi thời gian",
+    "presetsHeader": "Cài đặt trước",
+    "presets": {
+      "lastHour": "Giờ trước",
+      "today": "Hôm nay",
+      "yesterday": "Hôm qua",
+      "todayYesterday": "Hôm qua và hôm nay",
+      "thisWeek": "Tuần này",
+      "lastWeek": "Tuần trước",
+      "thisMonth": "Tháng này",
+      "lastMonth": "Tháng trước",
+      "thisYear": "Năm nay",
+      "lastYear": "Năm trước"
+    },
+    "custom": {
+      "header": "Khách hàng",
+      "start": "Ngày bắt đầu",
+      "end": "Ngày kết thúc"
+    },
+    "warning": {
+      "startBeforeEnd": "Ngày bắt đầu không thể sau ngày kết thúc",
+      "maxTimeRange": "Phạm vi thời gian không thể lớn hơn một năm"
+    }
+  },
+  "styleChange": {
+    "header": "Thay đổi kiểu",
+    "currentColor": "Màu hiện tại",
+    "selectColor": "Chọn màu mới",
+    "selectBarInterval": "Chọn thanh khoảng thời gian",
+    "barChartInterval": {
+      "hour": "Giờ",
+      "day": "Ngày",
+      "week": "Tuần",
+      "month": "Tháng"
+    },
+    "zeroScaled": "Không thay đổi kích thước trục Y",
+    "groupedAxis": "Trục nhóm"
+  },
+  "settings": {
+    "header": "Cài đặt",
+    "chooseLanguage": "Chọn ngôn ngữ",
+    "requiresRestart": "Cần khởi động lại!",
+    "permalink": {
+      "create": "Tạo đường dẫn",
+      "inWindow": "Cửa sổ mới",
+      "inMail": "E-mail",
+      "inClipboard": "Clipboard",
+      "clipboardInfo": "Hãy sao chép liên kết sau vào bộ nhớ tạm thời",
+      "inQrCode": "QR-Code",
+      "favorite": "Lưu môi trường làm việc thành mục yêu thích"
+    },
+    "clusterMarker": "Gộp marker",
+    "markerWithLastInfo": {
+      "header": "Đánh dấu thông tin giá trị cuối cùng",
+      "label": "Chú ý - Một số dữ liệu cung cấp rất chậm"
+    },
+    "saveStatus": {
+      "header": "Lưu môi trường",
+      "label": "Tất cả chuỗi thời gian, những khoảng thời gian được lựa chọn và thiết lập được lưu liên tục "
+    },
+    "resetStatus": "Thiết lập lại môi trường",
+    "generalizeData": "Khái quát hóa dữ liệu",
+    "imprint": {
+      "header": "Nhà sản xuất",
+      "github": "Chi tiết dự án trên <a href='https://github.com/52North/js-sensorweb-client' target='_blank'>GitHub</a>",
+      "text": "<p><a href='http://52north.org' target='_blank'>52&deg;North GmbH</a> chịu trách nhiệm về trang web này.</p><p>52&deg;North Sáng kiến phần mềm mã nguồn mở cho không gian địa lý GmbH<br>Martin-Luther-King-Weg 24<br>48155 Muenster, Đức</p>"
+    }
+  },
+  "permalink": {
+    "noMatchingTimeseriesFound": "Không tìm thấy chuỗi thời gian phù hợp"
+  },
+  "guide": {
+    "start": {
+      "request": "Khi bạn bắt đầu hướng dẫn này, các trạng thái hiện hành sẽ được cài lại."
+    },
+    "step1": {
+      "header": "JavaScript Client - Hướng dẫn sử dụng",
+      "text": "Hướng dẫn một vài bước trong cách nhìn tổng quan làm thế nào để sử dụng client này. Đầu tiên ta thêm một chuỗi thời gian từ bản đồ."
+    },
+    "step2": {
+      "header": "Đi đến bản đồ",
+      "text": "Ở đây chúng ta chuyển đổi khung nhìn để có một bản đồ "
+    },
+    "step3": {
+      "header": "Xem bản đồ",
+      "text": "Đây là bản đồ. trong bản đồ bạn có thể nhìn thấy các điểm đánh dấu hoặc nhóm các điểm đánh dấu."
+    },
+    "step4": {
+      "header": "Thay đổi cung cấp? ",
+      "text": "Bạn có thể chọn chuỗi thời gian cung cấp khác."
+    },
+    "step5": {
+      "header": "Hiện vị trí ",
+      "text": "Và ở đây bạn có thể xác định vị trí hiện tại của thiết bị của bạn trên bản đồ."
+    },
+    "step6": {
+      "header": "Danh sách lựa chọn",
+      "text": "Bạn có thể chọn một chuỗi thời gian ra khỏi danh sách đặt sẵn"
+    },
+    "step7": {
+      "header": "Chọn một trạm",
+      "text": "Vui lòng chọn một trạm hiện có trên bản đồ."
+    },
+    "step8": {
+      "header": "Chọn chuỗi thời gian ",
+      "text": "Chọn hộp đánh dấu. Nếu chỉ có duy nhất một chuỗi thời gian cho trạm đó, hộp đánh dấu sẽ được đánh dấu. Bây giờ bạn có thể nhấn nút \"OK\" để tải chuỗi thời gian."
+    },
+    "step9": {
+      "header": "Chú thích lối vào",
+      "text": "Bạn có thể thấy các chuỗi thời gian đã được thêm. Bạn có thể xóa hoặc xác định vị trí các chuỗi thời gian hoặc thay đổi màu sắc."
+    },
+    "step10": {
+      "header": "Đồ thị",
+      "text": "Đây là biểu đồ của dòng thời gian được chọn."
+    },
+    "step11": {
+      "header": "Thay đổi thời gian",
+      "text": "Bạn có thể thay đổi chuỗi thời gian đã chọn trong phạm vi thời gian."
+    },
+    "step12": {
+      "header": "Xem bảng",
+      "text": "Bạn sẽ có một bảng các giá trị dữ liệu thô đến chuỗi thời gian lựa chọn của bạn.."
+    },
+    "step13": {
+      "header": "Quản lý yêu thích",
+      "text": "Các mục chú thích, chuỗi thời gian có thể được lưu trong yêu thích. Theo đó tất cả các mục yêu thích được liệt kê và có thể được duy trì."
+    },
+    "step14": {
+      "header": "Hoàn thành",
+      "text": "Đã xong!<br> Client này là một sản phẩm của <a href='http://52north.org' target='_blank'>52&deg;North GmbH</a>. Bạn có thể tìm mã nguồn tại <a href='https://github.com/52North/js-sensorweb-client' target='_blank'>GitHub</a>."
+    }
+  },
+  "favorite": {
+    "firstValueAt": "Giá trị xa nhất",
+    "lastValueAt": "Giá trị gần nhất",
+    "label": "yêu thích",
+    "edit": {
+      "header": "Chỉnh sửa yêu thích"
+    },
+    "group": {
+      "add": "Trạng thái &#39;{0}&#39; được thêm vào danh sách yêu thích.",
+      "exists": "Trạng thái vẫn còn tồn tại.",
+      "noTimeseries": "Hiện tại chưa có chuỗi thời gian được lựa chọn.",
+      "notSupported": "Nguồn &#39;{0}&#39; isn&#39;t không được hỗ trợ và can&#39;t không thể nạp."
+    },
+    "single": {
+      "add": "Một yêu thích mới &#39;{0}&#39; được thêm vào danh sách.",
+      "remove": "Mục yêu thích &#39;{0}&#39; được di chuyển.",
+      "exists": "Yêu thích này đã tồn tại.",
+      "notSupported": "Nguồn cung cấp của mục yêu thích &#39;{0}&#39; isn&#39;t không được hỗ trợ và can&#39;t không thể nạp."
+    },
+    "import": {
+      "override": "Bạn có muốn ghi đè vào mục yêu thích hiện tại của bạn?",
+      "wrongFile": "Không thể đọc tập tin",
+      "noValidJson": "Tập tin JSON không hợp lệ!",
+      "header": "Nhập yêu thích",
+      "text": "Bạn có thể nhập mục yêu thích bạn đã xuất. Hãy dán đoạn JSON vào trường văn bản này:"
+    },
+    "export": {
+      "header": "Xuất yêu thích",
+      "text": "Bạn có thể xuất mục yêu thích của bạn. Sao chép JSON ra khỏi hộp văn bản này và lưu vào một file để nhập nó sau này:"
+    },
+    "error": {
+      "fileApiNotSupported": "Các tệp APIs không được hỗ trợ đầy đủ trong trình duyệt này."
+    }
+  },
+  "inform": {
+    "error": "Có lỗi xảy ra: ",
+    "warn": "Hãy nhớ rằng: "
+  },
+  "metadataOutput": {
+    "selectRawProcedureFormat": "Chọn định dạng thô cho thủ tục",
+    "selectTimeseriesDataFormat": "Chọn định dạng thô cho dữ liệu chuỗi thời gian",
+    "showCapabilities": "Hiển thị khả năng của SOS"
+  }
+}
