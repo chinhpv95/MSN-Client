@@ -6,7 +6,7 @@
   "saveStatus": true,
   "providerBlackList": [{
     "serviceID": "xyz",
-    "apiUrl": "http://118.70.72.15:8080/sos-bundle/api/v1/"
+    "apiUrl": "http://geo.irceline.be/sos/api/v1/"
   }],
   "restApiUrls": {
     "http://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/api/v1/": "52nSensorweb",
@@ -18,7 +18,7 @@
   },
   "defaultProvider": {
     "serviceID": "srv_3dec8ce040d9506c5aba685c9d134156",
-    "url": "http://118.70.72.15:8080/sos-bundle/api/v1/"
+    "url": "http://geo.irceline.be/sos/api/v1/"
   },
   "chartOptions": {
     "yaxis": {

@@ -9,7 +9,7 @@
     "phenomenon": "Phenomenon",
     "favoritesList": "Favorites",
     "importFavorites": "Import",
-    "exportFavorites": "Export",
+    "exportFavorites": "Export all",
     "importExportHelp": "To import a file, please choose a file you exported before.",
     "noFileSelected": "No file selected"
   },
@@ -17,7 +17,6 @@
     "diagram": "Diagram",
     "map": "Map",
     "favorite": "Favorites",
-    "provider": "Provider",
     "listSelection": "List selection",
     "settings": "Settings"
   },
@@ -69,7 +68,7 @@
       "jumpBackToChart": "back to chart"
     },
     "search": {
-      "label": "search for address ...",
+      "label": "Search for address ...",
       "noResult": "Sorry, that address could not be found."
     }
   },
@@ -88,8 +87,8 @@
   },
   "legend": {
     "entry": {
-      "noData": "no Data available",
-      "jumpToLastValue": "jump to last value",
+      "noData": "No Data available",
+      "jumpToLastValue": "Jump to last value",
       "firstValueAt": "First value at",
       "lastValueAt": "Last value at"
     }
@@ -168,8 +167,8 @@
     "generalizeData": "generalize Data",
     "imprint": {
       "header": "Imprint",
-      "github": "Find this project at <a href='https://github.com/52North/js-sensorweb-client' target='_blank'>GitHub</a>",
-      "text": "<p><a href='http://52north.org' target='_blank'>52&deg;North GmbH</a> is responsible for this website.</p><p>52&deg;North Initiative for Geospatial Open Source Software GmbH<br>Martin-Luther-King-Weg 24<br>48155 Muenster, Germany</p>"
+      "github": "This web application is based on open source software. Find this project at <a href='https://github.com/52North/js-sensorweb-client' target='_blank'>GitHub</a>",
+      "text": "<p>IoT team, <a href='http://fimo.edu.vn/' target='_blank'>FIMO</a> center<br><a href='http://uet.vnu.edu.vn/' target='_blank'>VNU University of Engineering and Technology</a><br>Room 408, E3 Building<br>144 Xuan Thuy, Cau Giay<br>Hanoi, Vietnam</p>"
     }
   },
   "permalink": {

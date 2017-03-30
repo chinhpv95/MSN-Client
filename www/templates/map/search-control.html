@@ -1,8 +1,11 @@
 <div class="map-control search-control" ng-controller="SwcSearchCtrl">
-    <form class="btn-sm btn-info search-form" ng-submit="startSearch(searchTerm)">
-        <span class="glyphicon glyphicon-search search-icon"></span>
-        <span>
-            <input type="text" ng-model="searchTerm" placeholder="{{'map.search.label' | translate}}"/>
-        </span>
+    <form class="btn-sm search-form" ng-submit="startSearch(searchTerm)">
+    			<span class="input-search">
+            		<input type="text" ng-model="searchTerm" placeholder="{{'map.search.label' | translate}}"/>
+        		</span>
+    			<button class="btn search-button" type="button">
+        			<span class="glyphicon glyphicon-search search-icon"></span>
+        		</button>  
+        	
     </form>
 </div>
