@@ -1,6 +1,7 @@
 {
   "fullname": "Tiếng Việt",
-  "ok": "Xác nhận",
+  "ok": "Biểu đồ",
+  "noti": "Đăng ký cảnh báo",
   "main": {
     "legend": "Chú thích",
     "stationSelection": "Chọn một trạm",

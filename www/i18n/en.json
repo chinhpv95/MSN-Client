@@ -1,6 +1,7 @@
 {
   "fullName": "English",
-  "ok": "OK",
+  "ok": "Diagram",
+  "noti": "Notification",
   "main": {
     "legend": "Legend",
     "stationSelection": "Select a station",
