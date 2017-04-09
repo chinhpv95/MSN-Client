@@ -3,7 +3,7 @@
         <button type="button" class="close" ng-click="close();">&times;</button>
         <div class="modal-title">
             <span>{{'map.stationSelection.station' | translate}}</span>:
-            <span>{{station.entry.properties.label}}</span>
+            <span id="label" value ="{{station.entry.properties.label}}">{{station.entry.properties.label}}</span>
         </div>
     </div>
     <div class="modal-body stationContent">
@@ -36,8 +36,7 @@
         </div>
     </div>
     <div class="modal-footer">
-        <button type="button" class="btn btn-primary" translate="noti" id="gettingId">
-            
+        <button type="button" class="btn btn-primary" translate="noti" id="button" onclick="getDataStation()">
         </button>
         <button type="button" class="btn btn-primary" id="confirmTimeseriesSelection" ng-click="addTimeseriesSelection(phenomenonId)" translate="ok">
         </button>
@@ -45,7 +44,11 @@
 </div>
 
 <script type="text/javascript">
-    function gettingID(){
-        window.location.href = "http://stackoverflow.com";
+
+    function getDataStation(){
+        var data = $("#label").attr('value');
+        alert(data);
+        document.cookie = "name=" + data;
+        
     }
 </script>
