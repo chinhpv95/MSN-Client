@@ -77,27 +77,19 @@ mainApp.config(['$routeProvider', function($routeProvider) {
             name: 'navigation.favorite',
             reloadOnSearch: false
         })
-        /*.when('/map/provider', {
-            name: 'navigation.provider',
-            modal: {
-                controller: 'SwcProviderListModalCtrl',
-                templateUrl: 'templates/map/provider-list-modal.html'
-            },
-            reloadOnSearch: false
-        })*/
-        .when('/diagram/listSelection', {
-            name: 'navigation.listSelection',
-            modal: {
-                controller: 'ModalWindowCtrl',
-                templateUrl: 'templates/listSelection/modal-list-selection.html'
-            },
-            reloadOnSearch: false
-        })
         .when('/diagram/settings', {
             name: 'navigation.settings',
             modal: {
                 controller: 'SwcUserSettingsWindowCtrl',
                 templateUrl: 'templates/settings/user-settings-modal.html'
+            },
+            reloadOnSearch: false
+        })
+        .when('/diagram/imprint', {
+            name: 'navigation.imprint',
+            modal: {
+                controller: 'ModalWindowCtrl',
+                templateUrl: 'templates/imprint/imprint-modal.html'
             },
             reloadOnSearch: false
         })

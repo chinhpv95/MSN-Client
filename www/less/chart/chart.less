@@ -4,11 +4,11 @@
     .axisTarget {
         cursor: pointer;
         &:hover {
-            background-color: @hover-background-color;
+            background-color: #23a6ff;
             opacity: 0.4;
         }
         &.selected {
-            background-color: @selection-background-color;
+            background-color: #0070bc;
             opacity: 0.4;
         }
     }
@@ -18,26 +18,26 @@
         text-align: center;
     }
     .yaxisLabel {
-        top: 50%;
+        top: 40%;
         transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        -webkit-transform: rotate(-90deg);
-        z-index: -9999;
-        padding-bottom: 8px;
+      -o-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      z-index: -9999;
+      padding-bottom: 8px;
         &.selected {
             font-weight: bold;
         }
     }
     .labelColorMarker {
-        font-size: 1050%;
+        font-size: 200%;
     }
     .chart-annotation {
         position: absolute;
         bottom: 40px;
         right: 15px;
-        color: @color-chart-annotation;
+        color: transparent;
     }
 }
 

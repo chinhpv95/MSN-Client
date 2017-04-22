@@ -16,7 +16,7 @@
             </div>
             <div class="noDataWarning firstLastEntry" ng-show="timeseries.hasNoDataInCurrentExtent">
                 <div>
-                    <span class="glyphicon glyphicon-warning-sign red"></span>
+                    <span class="glyphicon glyphicon-warning-sign"></span>
                     <span class="small" translate="legend.entry.noData"></span>
                 </div>
                 <div class="additionalLegendEntry"
@@ -41,11 +41,10 @@
             <span class="glyphicon glyphicon-map-marker inMap"
                   ng-controller="SwcShowInMapCtrl"
                   ng-click="$event.stopPropagation(); showInMap(timeseries)"></span>
-            <span 
+            <span class="glyphicon glyphicon-cog" 
                   ng-controller="SwcOpenStyleModalCtrl"
                   ng-style="{color: timeseries.styles.color}"
                   ng-click="$event.stopPropagation(); openStyling(timeseries)">
-                    <i class="fa fa-cogs changeStyle" aria-hidden="true"></i>
             </span>
             <span
                   ng-click="$event.stopPropagation(); showInformation()">

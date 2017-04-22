@@ -1,0 +1,58 @@
+@import "../variables.less";
+
+.navbar-default {
+    border-color: white;
+    background-color: @color-primary;
+    .navbar-header {
+        .navbar-brand {
+            cursor: default;
+            color: white;
+        }
+        .navbar-header-text{
+            margin-left: 10px;
+        }
+        .button-right {
+            float: right;
+            margin-right: 10px;
+        }  
+    }
+    .navbar-nav {
+        &>li{
+            &>a {
+                color: white;  
+                &:hover {
+                    color: white;
+                    background-color: #002c4b;
+                    cursor: pointer;  
+                }
+            }
+        }
+        &>.active {
+            &>a {
+                color: white;
+                background-color: #002c4b;
+                &:hover {
+                    color: white;
+                    background-color: #002c4b;
+                }
+                &:focus {
+                    color: white;
+                    background-color: #002c4b;
+                }
+            }
+        } 
+    }
+    .navbar-toggle{
+        border: none;
+        background-color: white;
+        &:hover{
+            background-color: white;
+        }
+        &:focus{
+            background-color: white;
+        }
+        collapse {
+            background-color: white;
+        }
+    }
+}

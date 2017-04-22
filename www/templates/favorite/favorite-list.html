@@ -1,20 +1,22 @@
-<div id="favorites-list">
-    <div class="col-sm-3 col-lg-3"></div>
-    <div class="favorite-container col-xs-12 col-sm-6 col-lg-6" ng-repeat="favorite in favorites" ng-switch="favorite.type">
-        <div class="favorite-entry"
+<div id="favorites-list" class="favorite-container">
+    <div class="row">
+    <div ng-repeat="favorite in favorites" ng-switch="favorite.type">
+        <div class="col-sm-4 col-lg-">
+            <div class="favorite-entry"
              ng-controller="SwcAddFavoriteToChartCtrl"
              ng-click="addToChart(favorite)">
-            <div class="favorite-header">
-                <span ng-include="'templates/favorite/favorite-entry-icons.html'"/>
-                <div class="header-label" title="{{favorite.label}}">{{favorite.label}}</div> 
-            </div>
-            <div ng-switch-when="single">
-                <span ng-include="'templates/favorite/favorite-entry.html'"/>
-            </div>
-            <div ng-switch-when="group">
-                <span ng-include="'templates/favorite/favorite-group-entry.html'"/>
+                <div class="favorite-header">
+                    <span ng-include="'templates/favorite/favorite-entry-icons.html'"/>
+                    <div class="header-label" title="{{favorite.label}}">{{favorite.label}}</div> 
+                </div>
+                <div ng-switch-when="single">
+                    <span ng-include="'templates/favorite/favorite-entry.html'"/>
+                </div>
+                <div ng-switch-when="group">
+                    <span ng-include="'templates/favorite/favorite-group-entry.html'"/>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-sm-3 col-lg-3"></div>
+    </div>
 </div>

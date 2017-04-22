@@ -43,7 +43,7 @@
         </ul>-->
     </script>
 
-    <table ng-table="tableParams" template-header="sample_template" template-pagination="custom/pager" class="table"
+    <table ng-table="tableParams" template-header="sample_template" template-pagination="custom/pager" class="table table-hover table-striped"
            when-scroll-ends="loadMoreData()">
         <tbody>
           <tr ng-repeat="row in $data">

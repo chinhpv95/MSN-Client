@@ -3,9 +3,9 @@
 .btn {
     color: @text-color;
     &:hover {
-        background-color: @hover-background-color;
-        color: @hover-color;
-        border-color: @hover-background-color;        
+        background-color: #23a6ff;
+        color: #ffffff;
+        border-color: #23a6ff;        
     }
 }
 
@@ -14,18 +14,36 @@
 }
 
 .btn-primary {
-    background-color: @selection-background-color;
-    border-color: @selection-background-color;
+    background-color: @color-primary;
+    border-color: @color-primary;
     color: @selection-color;
+    border-radius: 0px;
     &:hover {
-        background-color: @hover-background-color;
-        border-color: @hover-background-color;
+        background-color: #002c4b;
+        border-color: #0070bc;
+        border-radius: 0px;
     }
 }
 
 .btn-default {
+    border-radius: 0px;
+    color: #000;
     &:hover {
-        background-color: @hover-background-color;
-        color: @hover-color;
+        background-color: #0070bc;
+        color: #fff;
     }
+}
+
+.btn-block {
+    border-radius: 0px;
+    border-color: #0070bc;
+    color: black;
+}
+
+.btn-group {
+    color: black;
+}
+
+.resetStatus {
+    color: black;
 }

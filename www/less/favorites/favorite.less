@@ -22,26 +22,26 @@
 
 .favorites {
     /*    height: inherit;*/
+    padding-top: 20px;
     position: relative;
-    overflow: auto;
+    overflow: hidden;
     .favorite-container {
         color: @text-color;
-        padding: 5px;
+        padding: 10px;
         .favorite-entry {
-            border: 1px solid @color-secondary;
+            border: 1px solid black;
             word-break: break-all;
             &:hover{
-                cursor: pointer;
-                background-color: @hover-background-color;
-            }
+                cursor: pointer;            }
             .favorite-header {
                 padding: 5px;
                 font-size: 120%;
-                background-color: fade(@color-primary, 50%);
+                background-color: @color-primary;
                 .header-label {
                     overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
+                    color: #ffffff;
                     &:hover {
                         cursor: text;
                     }
@@ -51,6 +51,7 @@
                     span {
                         margin-left: 3px;
                         cursor: pointer;
+                        color: #ffffff;
                     }
                 }
             }
