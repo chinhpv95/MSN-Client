@@ -12,6 +12,9 @@
                            href="#collapseSettings" translate="settings.header"></a>
                     </h4>
                 </div>-->
+                <center>
+                    <div class="favorite-label" translate="settings.envi"></div>
+                </center>
                 <div id="collapseSettings" class="panel-collapse collapse in">
                     <div class="panel-body">
                         <swc-settings-toggle-button
@@ -22,6 +25,11 @@
                         <a class="btn btn-block btn-default resetStatus" translate="settings.resetStatus"
                            ng-controller="SwcResetStatusButtonCtrl"
                            ng-click="resetStatus()"></a>
+
+                        <center>
+                            <div class="favorite-label" translate="settings.language"></div>
+                        </center>
+                        <br>
                         <swc-language-selector></swc-language-selector>
                         <!--<div class="panel panel-default permalink">
                             <div class="panel-heading" translate="settings.permalink.create">:</div>

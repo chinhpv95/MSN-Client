@@ -149,6 +149,8 @@
     "header": "Cài đặt",
     "chooseLanguage": "Chọn ngôn ngữ",
     "requiresRestart": "Cần khởi động lại!",
+    "envi" : "Môi trường",
+    "language": "Ngôn ngữ",
     "permalink": {
       "create": "Tạo đường dẫn",
       "inWindow": "Cửa sổ mới",

@@ -148,6 +148,8 @@
     "header": "Settings",
     "chooseLanguage": "Switch language",
     "requiresRestart": "Needs Restart!",
+    "envi" : "Environment",
+    "language": "Language",
     "permalink": {
       "create": "Create a permalink as",
       "inWindow": "link in a new window",
