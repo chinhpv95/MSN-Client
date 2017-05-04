@@ -1,12 +1,12 @@
 @import "../variables.less";
 
 .navbar-default {
-    border-color: white;
+    border-color: @color-secondary;
     background-color: @color-primary;
     .navbar-header {
         .navbar-brand {
             cursor: default;
-            color: white;
+            color: @color-secondary;
         }
         .navbar-header-text{
             margin-left: 10px;
@@ -19,9 +19,9 @@
     .navbar-nav {
         &>li{
             &>a {
-                color: white;  
+                color: @color-secondary;  
                 &:hover {
-                    color: white;
+                    color: @color-secondary;
                     background-color: #002c4b;
                     cursor: pointer;  
                 }
@@ -29,14 +29,14 @@
         }
         &>.active {
             &>a {
-                color: white;
+                color: @color-secondary;
                 background-color: #002c4b;
                 &:hover {
-                    color: white;
+                    color: @color-secondary;
                     background-color: #002c4b;
                 }
                 &:focus {
-                    color: white;
+                    color: @color-secondary;
                     background-color: #002c4b;
                 }
             }
@@ -44,15 +44,15 @@
     }
     .navbar-toggle{
         border: none;
-        background-color: white;
+        background-color: @color-secondary;
         &:hover{
-            background-color: white;
+            background-color: @color-secondary;
         }
         &:focus{
-            background-color: white;
+            background-color: @color-secondary;
         }
         collapse {
-            background-color: white;
+            background-color: @color-secondary;
         }
     }
 }

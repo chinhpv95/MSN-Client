@@ -1,25 +1,39 @@
 @import "../variables.less";
 
+.legend {
+    background-color: @color-primary;
+}
+
 .legendItem {
-    background-color: white;
-    padding: 3px;
+    background-color: @color-primary;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     border-radius: 0px;
-    margin-bottom: 5px;
+    border-bottom: solid 2px @color-secondary;
+    color: @color-secondary;
     .small {
         font-size: 90%;
+        padding-bottom: 5px;
         word-break: break-all;
     }
     &.selected {
-        border-width: 5px;
-        border-style: solid;
+        background-color: #002c4b;
     }
     .legendItemheader {
         cursor: pointer;
+        border-left: solid 5px;
+        padding-left: 15px;
+        .legendItemLabel {
+            padding-bottom: 7px;
+            font-size: 120%;
+        }
     }
     .legendicons {
         span {
+            padding-top: 5px;
             margin: 0 4%;
-            font-size: 150%;
+            font-size: 160%;
             &:hover {
                 cursor: pointer;
             }
@@ -30,7 +44,7 @@
     }
     .noDataWarning {
         border: red solid 2px;
-        border-radius: 5px;
+        border-radius: 0px;
         padding: 3px;
         .red {
             color: red;
@@ -42,7 +56,7 @@
     .refEntry.selected {
         border-style: solid;
         border-width: 2px;
-        border-radius: 2px;
+        border-radius:0px;
         margin: 2px 0px;
     }
 
@@ -68,6 +82,7 @@
     }
 }
 
+
 .panel-body {
     color: black;
 }
@@ -86,4 +101,35 @@
     .hidden-medium {
         display: none;
     }
+}
+
+.firstLastEntry {
+    color: @color-secondary;
+    &:hover {
+        color: #d2d2d2;
+    }
+}
+
+.glyphicon-eye-close:hover {
+    color: #d2d2d2;
+}
+
+.glyphicon-eye-open:hover {
+    color: #d2d2d2;
+}
+
+.glyphicon-map-marker:hover {
+    color: #d2d2d2;
+}
+
+.glyphicon-cog:hover {
+    color: #d2d2d2;
+}
+
+.glyphicon-download-alt:hover {
+    color: #d2d2d2;
+}
+
+.glyphicon-remove:hover {
+    color: #d2d2d2;
 }

@@ -17,14 +17,23 @@
                 </center>
                 <div id="collapseSettings" class="panel-collapse collapse in">
                     <div class="panel-body">
-                        <swc-settings-toggle-button
-                            field="saveStatus"
-                            caption="settings.saveStatus.header"
-                            description="settings.saveStatus.label">
-                        </swc-settings-toggle-button>
+                        <div>
+                            <swc-settings-toggle-button
+                                field="saveStatus"
+                                caption="settings.saveStatus.header"
+                                description="settings.saveStatus.label">
+                            </swc-settings-toggle-button>
+                        </div>
                         <a class="btn btn-block btn-default resetStatus" translate="settings.resetStatus"
                            ng-controller="SwcResetStatusButtonCtrl"
                            ng-click="resetStatus()"></a>
+
+                        <a class="btn btn-block btn-default" ng-class="{'btn-primary':status.clusterStations}" translate="settings.clusterMarker" ng-controller="SwcClusterMarkerCtrl" ng-click="toggle(); close();"></a>
+                            <!--<swc-settings-toggle-button
+                                field="concentrationMarker"
+                                caption="settings.markerWithLastInfo.header"
+                                description="settings.markerWithLastInfo.label">
+                            </swc-settings-toggle-button>-->
 
                         <center>
                             <div class="favorite-label" translate="settings.language"></div>
@@ -60,12 +69,6 @@
                                 </div>
                             </div>
                         </div>-->
-                        <!--<a class="btn btn-block btn-default" ng-class="{'btn-primary':status.clusterStations}" translate="settings.clusterMarker" ng-controller="SwcClusterMarkerCtrl" ng-click="toggle(); close();"></a>
-                        <swc-settings-toggle-button
-                            field="concentrationMarker"
-                            caption="settings.markerWithLastInfo.header"
-                            description="settings.markerWithLastInfo.label">
-                        </swc-settings-toggle-button>-->
                         <!--<a class="btn btn-block btn-default" ng-class="{'btn-primary':status.generalizeData}" translate="settings.generalizeData" ng-controller="SwcToggleGeneralizationCtrl" ng-click="toggleGeneralization(); close();"></a>-->
                     </div>
                 </div>

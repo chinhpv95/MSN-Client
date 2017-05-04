@@ -21,10 +21,11 @@
     "favorite": "Favorites",
     "listSelection": "List selection",
     "settings": "Settings",
-    "imprint": "Imprint"
+    "imprint": "Imprint",
+    "help": "Help"
   },
   "chart": {
-    "noTimeseriesSelected": "You have selected no timeseries, the selected timeseries have no values in the given time range or the timeseries are hidden.",
+    "noTimeseriesSelected": "Currently no timeseries are loaded.",
     "outsideOfDataRange": "Outside of data range!",
     "annotation": "Data without warranty!",
     "monthNames": {
@@ -92,8 +93,8 @@
     "entry": {
       "noData": "No Data available",
       "jumpToLastValue": "Jump to last value",
-      "firstValueAt": "First value at",
-      "lastValueAt": "Last value at"
+      "firstValueAt": "First value:",
+      "lastValueAt": "Last value:"
     }
   },
   "metadata": {
@@ -107,7 +108,7 @@
   },
   "timeSelection": {
     "header": "Time Range",
-    "presetsHeader": "presets",
+    "presetsHeader": "Presets",
     "presets": {
       "lastHour": "last hour",
       "today": "today",
@@ -121,7 +122,7 @@
       "lastYear": "last year"
     },
     "custom": {
-      "header": "custom",
+      "header": "Custom",
       "start": "Start date",
       "end": "End date"
     },
@@ -159,7 +160,7 @@
       "inQrCode": "as QR-Code",
       "favorite": "Save working environment as favorite entry"
     },
-    "clusterMarker": "cluster marker",
+    "clusterMarker": "Group marker",
     "markerWithLastInfo": {
       "header": "marker with last value information",
       "label": "attention - some data provider are very slow"
@@ -282,5 +283,18 @@
     "selectRawProcedureFormat": "Select raw format for procedure",
     "selectTimeseriesDataFormat": "Select raw format for timeseries data",
     "showCapabilities": "Show Capabilities of the SOS"
+  },
+  "help": {
+    "help": "Help",
+    "info": "This help page provides a short overview to all functions of this application:",
+    "start": "Start view",
+    "timeMap": "Timeseries selection by map",
+    "timeList": "Timeseries selection by list",
+    "chartView": "Chart view",
+    "legend": "Legend",
+    "favorite": "Favorite view",
+    "setting": "Settings menu",
+    "startInfo": "This is main page. You can view map, filter phenomenon, and choose anyone marker.",
+    "settingInfo": "In setting, you can save/reset environment, group marker which displayed on map, and choose language (English/Vietnamese)"
   }
 }

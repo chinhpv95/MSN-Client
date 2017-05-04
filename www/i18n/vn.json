@@ -22,17 +22,18 @@
     "provider": "Nguồn",
     "listSelection": "Lựa chọn",
     "settings": "Cài đặt",
-    "imprint": "Phát triển"
+    "imprint": "Phát triển",
+    "help": "Trợ giúp"
   },
   "chart": {
-    "noTimeseriesSelected": "Bạn chưa chọn chuỗi thời gian, chuỗi thời gian được chọn không có giá trị trong phạm vi thời gian đưa ra hoặc chuỗi thời gian bị ẩn.",
+    "noTimeseriesSelected": "Bạn chưa chọn chuỗi thời gian",
     "outsideOfDataRange": "Ngoài phạm vi dữ liệu!",
     "annotation": "Dữ liệu chưa được xác thực!",
     "monthNames": {
       "jan": "Tháng một",
       "feb": "Tháng hai",
       "mar": "Tháng ba",
-      "apr": "Tháng bốn",
+      "apr": "Tháng tư",
       "may": "Tháng năm",
       "jun": "Tháng sáu",
       "jul": "Tháng bảy",
@@ -93,8 +94,8 @@
     "entry": {
       "noData": "Không có dữ liệu",
       "jumpToLastValue": "Đến giá trị cuối cùng",
-      "firstValueAt": "Giá trị đầu tiên tại",
-      "lastValueAt": "Giá trị cuối cùng tại"
+      "firstValueAt": "Giá trị đầu tiên:",
+      "lastValueAt": "Giá trị cuối cùng:"
     }
   },
   "metadata": {
@@ -108,7 +109,7 @@
   },
   "timeSelection": {
     "header": "Phạm vi thời gian",
-    "presetsHeader": "Cài đặt trước",
+    "presetsHeader": "Cài đặt sẵn",
     "presets": {
       "lastHour": "Giờ trước",
       "today": "Hôm nay",
@@ -122,7 +123,7 @@
       "lastYear": "Năm trước"
     },
     "custom": {
-      "header": "Khách hàng",
+      "header": "Tùy chỉnh",
       "start": "Ngày bắt đầu",
       "end": "Ngày kết thúc"
     },
@@ -283,5 +284,18 @@
     "selectRawProcedureFormat": "Chọn định dạng thô cho thủ tục",
     "selectTimeseriesDataFormat": "Chọn định dạng thô cho dữ liệu chuỗi thời gian",
     "showCapabilities": "Hiển thị khả năng của SOS"
+  },
+  "help": {
+    "help": "Trợ giúp",
+    "info": "Trang này cung cấp cho bạn những cái nhìn tổng quát về các chức năng của website:",
+    "start": "Trang chính",
+    "timeMap": "Lựa chọn chuỗi thời gian trên bản đồ",
+    "timeList": "Lựa chọn chuỗi thời gian trên biểu đồ",
+    "chartView": "Biểu đồ",
+    "legend": "Danh sách",
+    "favorite": "Danh sách yêu thích",
+    "setting": "Giao diện cài đặt",
+    "startInfo": "Đây là giao diện chính, ở đây bạn có thể xem bản đồ, lọc các dữ liệu quan trắc và chọn vào một marker bất kỳ.",
+    "settingInfo": "Trong phần cài đặt, bạn có thể tùy chọn lưu hoặc thiết lập lại môi trường, gộp các marker trên bản đồ, và lựa chọn ngôn ngữ hiển thị (Tiếng Anh/Tiếng Việt)"
   }
 }

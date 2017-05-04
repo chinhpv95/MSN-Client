@@ -2,7 +2,8 @@
     <uib-accordion close-others="true">
         <uib-accordion-group ng-repeat="param in parameters" is-open="param.isOpen" is-disabled="param.isDisabled">
             <uib-accordion-heading>
-                <span ng-class="{'text-muted' : param.isDisabled}">
+                <span ng-class="{'text-muted' : param.isDisabled}"
+                    style="color:#ededed;">
                     <span ng-bind-html="param.header | translate"></span>
                     <span ng-show=param.headerAddition>-</span>
                     <span>{{param.headerAddition}}</span>

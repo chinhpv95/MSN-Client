@@ -1,6 +1,8 @@
 @import "../variables.less";
 
 .phenomena {
+    padding-left: 0px;
+    padding-right: 0px;
     a:hover {
         text-decoration: none;        
     }
@@ -9,18 +11,18 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 0px;
-        border-top-color: white;
+        border-top-color: @color-secondary;
         border-bottom: solid 0.5px;
         word-break: break-all;
-        color: #ffffff;
+        color: @color-secondary;
         &:hover {
             background-color: #002c4b;
-            color: #ffffff;
+            color: @color-secondary;
             cursor: pointer;    
         }
         &.selected {
             background-color: #002c4b;
-            color: #ffffff;
+            color: @color-secondary;
         }
     }
     .phenomena-list {

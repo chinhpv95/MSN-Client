@@ -3,14 +3,15 @@
     <script id="sample_template" type="text/ng-template">
           <tr>
               <th ng-repeat="column in columns"
-                  class="text-center sortable" ng-class="{
+                  class="text-center sortable values active" 
+                  ng-class="{
                       'sort-asc': tableParams.isSortBy(column.field, 'asc'),
                       'sort-desc': tableParams.isSortBy(column.field, 'desc')
-                    }"
+                  }"
                   ng-click="tableParams.sorting(column.field, tableParams.isSortBy(column.field, 'asc') ? 'desc' : 'asc')">
-                          <div class="sort-indicator">
+                          <div class="sort-indicator" ng-style="{'border-color': column.color}">
                               <div>{{column.station}}</div>
-                                <div>{{column.phenomenon}}</div>
+                              <div>{{column.phenomenon}}</div>
                           </div>
               </th>
               <!--<th>Columns: {{columns.length}}</th>-->
